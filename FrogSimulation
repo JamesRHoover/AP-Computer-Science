@@ -2,7 +2,7 @@ public class FrogSimulation
 {
  private int goalDistance;
  private int maxHops;
- public FrogSimulation(int dis, int numHops)
+ public FrogSimulation(int dist, int numHops)
  {
   goalDistance=dist;
   maxHops=numHops;
