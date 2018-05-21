@@ -1,5 +1,6 @@
-1.Check length of all jumps
-2.Record Highest Jump
-3.Record Lowest Jump
-4.Update Goal Distance
-5.Update Max Hops
+1.Check length of all jumps.
+2.Record Highest Jump.
+3.Record Lowest Jump.
+4.Update Goal Distance.
+5.Update Max Hops.
+6.Create a tester class for FrogSimulation.
