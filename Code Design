@@ -18,5 +18,8 @@
   - Create a mutator method which changes the maxHops based on user input
 
 6. Create a tester class for FrogSimulation.
-  - Allow the user 
+  - Allow the user to create a FrogSimulation object for simulation
+  - Allow the user to modify the FrogSimulation object based on existing code
+  - Display the private variables for the FrogSimulation object.
+  
  
