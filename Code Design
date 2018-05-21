@@ -1,0 +1,22 @@
+1. Keep track of the length of all jumps of the frog and make a way to access the variable.
+  - Add a static variable to keep track of each total jumps
+  - Increment the total jumps based on the amount of jumps in the simulate() method
+  - Create a method which returns the total jumps
+
+2. Record the highest jump.
+  - Add a private variable to keep track of the highest jump.
+  - Add code within the simulate() method to check if the frog has the highest jump
+
+3. Record the lowest jump.
+  - Add a private variable to keep track of the lowest jump.
+  - Add code within the simulate() method to check if the frog has the lowest jump
+
+4. Create a way to update goalDistance variable.
+  - Create a mutator method which changes the goalDistance based on user input
+
+5. Create a way to update maxHops variable.
+  - Create a mutator method which changes the maxHops based on user input
+
+6. Create a tester class for FrogSimulation.
+  - Allow the user 
+ 
