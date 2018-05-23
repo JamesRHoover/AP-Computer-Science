@@ -11,13 +11,17 @@
   - Add a private variable to keep track of the lowest jump.
   - Add code within the simulate() method to check if the frog has the lowest jump
 
-4. Create a way to update goalDistance variable.
+4.Create a way to recieve the longest and shortest jumps.
+  - Add a method that returns the longets jump.
+  - Add a method that returns th shrtest jump.
+
+5. Create a way to update goalDistance variable.
   - Create a mutator method which changes the goalDistance based on user input
 
-5. Create a way to update maxHops variable.
+6. Create a way to update maxHops variable.
   - Create a mutator method which changes the maxHops based on user input
 
-6. Create a tester class for FrogSimulation.
+7. Create a tester class for FrogSimulation.
   - Allow the user to create a FrogSimulation object for simulation
   - Allow the user to modify the FrogSimulation object based on existing code
   - Display the private variables for the FrogSimulation object.
