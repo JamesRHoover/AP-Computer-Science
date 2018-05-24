@@ -1,0 +1,45 @@
+public class FrogSimulation
+{
+ private int goalDistance;
+ private int maxHops;
+ private int longJump;
+ private int shortJump;
+ public FrogSimulation(int dist, int numHops)
+ {
+  goalDistance=dist;
+  maxHops=numHops;
+ }
+ private int hopDistance()
+ {return (int)(Math.random()*50)-20;}
+ public boolean simulate()
+ {int position=0;
+  for(int i=0; i<maxHops; i++)
+    {
+     position+=hopDistance();
+     if(position<0)
+      return false;
+     else if(position>=goalDistance)
+      return true;
+    }
+  return false;
+ }
+  public double runSimulations(int num)
+  {double count=0;
+  for(int i =0; i<num; i++)
+    if(simulate())
+     count+=1.0;
+  return count/(double)num;
+ }
+ public void changeGoalDistance(int newGoal)
+ {
+     this.goalDistance=newGoal;
+ }
+ public void changeMaxHops(int newHops)
+ {
+     this.maxHops=newHops;
+ }
+ public int getLongestJump()
+ {return(this.longJump);}
+ public int getShortestJump()
+ {return(this.shortJump);}
+} 
